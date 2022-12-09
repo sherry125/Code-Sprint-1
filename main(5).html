@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+    <!-- CSS only -->
+    <link rel="stylesheet" 
+    href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style> <!--This is the style sheet-CSS that is basically for the positioning of each thing on the page as well as the style of it-->
+.searchBtn
+{
+    position: absolute;
+    right:-8px;
+    top:0px;
+    height: 30px;
+    width: 30px;
+}
+.menubars 
+{
+	width: 25px;
+	height: 2px;
+	background-color: dodgerblue;
+	margin: 6px 0;
+}
+.menu
+{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.navbar
+{
+    width: 100%;
+    background-color: orange;
+    height:50px;
+}
+.searchBar
+{
+    width:200px;
+    height: 25px;
+    position: absolute;
+    top:18px;
+    right:15%;
+}
+.fa-user-circle-o{
+    position: absolute;
+    top: 15px;
+  right: 40px;
+  color: dodgerblue;
+
+}
+
+.inputs
+{
+    position: absolute;
+    top: 100px;
+    left: 45%;
+}
+*
+{
+    font-family: sans serif;
+}
+#boxes
+{
+    position: relative;
+    left:-43px;
+}
+#signBtn
+{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    width: 159px;
+    margin-top: 29px;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+</style>
+
+</head>
+<body>
+
+<!--Creates a dropdown menu for navigations from one page to another-->
+<div class="navbar">
+    <div class="menu">
+
+        <div class="dropdown">
+		 <div class="menubars"></div>
+		 <div class="menubars"></div>
+		 <div class="menubars"></div> 
+			<div class="dropdown-content">
+				<a href="main(11).html">Home</a>
+				<a href="main(4).html">Ask a question</a>
+			</div>
+		</div>
+    </div>
+	
+    <div class="searchBar"> <!--This creates the search bar on the top right hand corner -->
+        <input type="text" style="height:100%;width:100%" placeholder="Search">
+        
+          
+            <button class="searchBtn"><i class="fa fa-search"></i></button>
+          
+    </div>
+    <i class="fa fa-user-circle-o fa-2x" aria-hidden="true" ></i> <!--This creates the user account icon on the right corner -->
+
+
+    <div class="inputs">  <!-- This creates the "Ask Lizzy" Logo-->
+        <img
+		 src="C:/Users/shery/OneDrive/Desktop/Project Management/CodeSprint2/Logo.jpg" alt="App Logo"
+         style="height:200px; width:200px; center;"
+         >
+
+        </div>
+		<div>
+		<p style = "padding-top: 270px; padding-left: 600px; font-size: 16px;">Open the folder you want to create a new folder in.</p>
+		<p style = "padding-left: 600px; font-size: 16px;"> Right-click the empty space and go to New > Folder.</p>
+		<p style = "padding-left: 600px; font-size: 16px;"> Name the folder and click other space to create a new 
+		<p style = "padding-left: 600px; font-size: 16px;"> folder in Windows 11 File Explorer.</p>
+		<p style = "padding-left: 610px; font-size: 14px;"><u> Click on the video to get Ask Lizzy to show you visually.</p></u>
+		</div>
+		
+		<video width="400" style = "padding-left: 580px;" controls>
+		<source src="Question1.mp4" type="Question1/mp4">
+		Your browser does not support HTML video.
+		</video>
+		
+		
+    </div>
+</div>
+</body>
+
+</html>
